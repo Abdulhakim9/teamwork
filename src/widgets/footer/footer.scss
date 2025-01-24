@@ -19,3 +19,10 @@
     color: gray;
     border-top: 1px solid lightgray;
 }
+@media (max-width:420px){
+    .alldiv{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

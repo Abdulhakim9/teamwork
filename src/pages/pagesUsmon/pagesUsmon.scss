@@ -1,0 +1,64 @@
+
+.container{
+  background-image: url("./фон.png");
+  background-size: cover;
+  background-position: center;
+  height: 240px;
+  border-radius: 20px;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: white;
+  div{
+    margin-left: 100px;
+  }
+}
+*{
+  font-family: sans-serif;
+}
+.pagesUsmon__content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  div{
+    width: 15%;
+    display: flex;
+    gap: 20px;
+    img{
+      width: 66px;
+      height: 66px;
+    }
+  }
+}
+.carts{
+  width: 270px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  p{
+    margin-top: 40px;
+    text-align: start;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  img{
+    width: 80%;
+    margin-left: 10%;
+  }
+  div{
+    width: 100%;
+  }
+}
+.allCards{
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  justify-content: space-between;
+  margin: auto;
+}
