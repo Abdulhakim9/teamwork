@@ -1,0 +1,63 @@
+$bgColor: #5B52A3;
+$textColor: white;
+$maxWidth: 90%;
+$position: 30px auto;
+$padding: 30px 60px;
+$radius: 20px;
+$paddindDiv: 20px;
+$bgCard: whitesmoke;
+$mobileWidth: 420px;
+
+.top{
+    background-color: $bgColor;
+    color: $textColor;
+    width: $maxWidth;
+    margin: $position;
+    padding: $padding;
+    border-radius: $radius;
+    .text{
+        font-family: sans-serif;
+    }
+    .text2{
+        font-family: sans-serif;
+        font-weight: 800;
+    }
+}
+
+.divCard{
+    padding: 15px 20px;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 60px;
+
+
+    @media (max-width: $mobileWidth) {
+        
+    }
+}
+
+.card{
+    width: 360px;
+    border-radius: 20px;
+    background-color: $bgCard;
+    @media (max-width: $mobileWidth) {
+        margin-top: 20px;
+    }
+    img{
+        width: 360px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .divEndCard{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: gray;
+    }
+}
