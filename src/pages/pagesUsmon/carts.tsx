@@ -1,10 +1,10 @@
 import cartimg from './image 4.png'
 
-export default function Carts() {
+export default function Carts({img , text}) {
   return <div className='carts'>
     <div>
-      <img src={cartimg} alt="" />
-      <p>Primark (Форма заказа)</p>
+      <img src={img} alt="" />
+      <p>{text}</p>
     </div>
   </div>
 }
