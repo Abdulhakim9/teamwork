@@ -1,0 +1,29 @@
+.divall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 30px;
+}
+
+.div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.div3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.div3 .btnheader {
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 1px solid #00C97B;
+  background-color: #00C97B;
+  color: white;
+  font-size: 17px;
+}/*# sourceMappingURL=header.css.map */
