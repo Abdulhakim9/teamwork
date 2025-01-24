@@ -1,6 +1,7 @@
 .graytext{
-    color: lightgray;
-    font-size: 16px;
+    color: gray;
+    font-size: 17px;
+    margin-top: 15px;
 }
 .alldiv{
     display: flex;
@@ -14,8 +15,16 @@
         gap: 30px;
     }
 }
+.blackte{
+    font-size: 20px;
+}
+
 .center{
     text-align: center;
+    margin-top: 25px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
     color: gray;
     border-top: 1px solid lightgray;
 }
