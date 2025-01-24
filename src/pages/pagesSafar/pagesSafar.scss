@@ -184,16 +184,19 @@
     align-items: center;
     color: white;
 
-    img{
+    img {
         width: 340px;
     }
-    div{
+
+    div {
         width: 70%;
-        button{
+
+        button {
             @include button();
             margin-top: 20px;
         }
-        input{
+
+        input {
             background-color: transparent;
             outline: none;
             color: white;
@@ -204,17 +207,18 @@
             font-size: 20px;
             border-bottom: 2px solid white;
         }
-        input::placeholder{
+
+        input::placeholder {
             color: white;
         }
 
-        div{
+        div {
             display: flex;
             justify-content: space-between;
             align-items: center;
             width: 100%;
 
-            p{
+            p {
                 width: 600px;
                 margin-top: 40px;
             }
@@ -222,15 +226,86 @@
     }
 }
 
-.first{
-    .questions{
+.first {
+    .questions {
         color: white;
         font-size: 35px;
     }
 }
-.eleven{
+
+.eleven {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding-left: 30px;
 }
+
+@media(max-width:420px) {
+    .first {
+        text-align: center;
+        padding: 0;
+        padding-top: 40px;
+
+        h1 {
+            margin-top: 30px;
+            font-size: 20px;
+        }
+    }
+
+    .second {
+        display: flex;
+        flex-wrap: wrap;
+
+        div {
+            width: 90%;
+            margin: auto;
+            margin-top: 80px;
+        }
+    }
+
+    .third {
+        text-align: center;
+
+        h1 {
+            width: 100%;
+        }
+
+        p {
+            width: 100%;
+            margin-top: 30px;
+        }
+    }
+
+    .fourth {
+        margin-top: 90px;
+        text-align: center;
+    }
+
+    .fifth {
+        flex-wrap: wrap;
+
+        .part1 {
+            width: 400px;
+            margin-left: 50px;
+            .part {
+                width: 97%;
+                padding: 5px;
+            }
+        }
+
+        margin-left: 0;
+    }
+
+     .six{
+        margin-left: 20px;
+     }
+    .eight{
+        width: 100%;
+        flex-wrap: wrap;
+        height: 100%;
+        padding: 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    }
