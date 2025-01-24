@@ -9,11 +9,11 @@ const PagesAnush = () => {
         <div className="left">
           <img src={img} alt="" />
         </div>
-        <div className="right">
-          <div className="header">
+        <div className="right-anush">
+          <div className="header-anush">
             <h1>{h1}</h1>
             <h2>{h2}</h2>
-          </div>
+          </div><br /><br /><br />
           <p>{p}</p>
         </div>
       </div>
