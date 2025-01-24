@@ -2,7 +2,9 @@ import React from 'react'
 
 const PagesAnush = () => {
   return (
-    <div>PagesAnush</div>
+    <div>
+      Salom
+    </div>
   )
 }
 
